@@ -24,4 +24,6 @@ print("I only own " +  pets[1] +" and " + pets[4])
 
 # "I want to adopt fido and garfield too"
 
-print("I want to adopt " + my_pets + " and " )
+#print("I want to adopt " + my_pets[0] + " and " )
+
+print("I want to adopt ",my_pets.get, " and ")
